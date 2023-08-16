@@ -2,6 +2,10 @@ package com.luxness.facotry;
 
 import com.luxness.bean.BeanDefinition;
 
+/**
+ * Declare the core method
+ * And the subclass would fill up the details
+ */
 public abstract class AbstractBeanFactory extends DefaultSingletonBeanRegistry implements BeanFactory {
     @Override
     public Object getBean(String name) {
