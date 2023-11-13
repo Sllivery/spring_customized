@@ -1,5 +1,8 @@
 package com.luxness.io;
 
-public interface InputeStreamSource {
+import java.io.IOException;
+import java.io.InputStream;
 
+public interface InputeStreamSource {
+    InputStream getInputStream() throws IOException;
 }
