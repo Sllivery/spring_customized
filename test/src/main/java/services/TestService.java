@@ -1,4 +1,4 @@
-package com.luxness.services;
+package services;
 
 import com.luxness.DAO.TestDao;
 import com.luxness.entity.TestEntity;

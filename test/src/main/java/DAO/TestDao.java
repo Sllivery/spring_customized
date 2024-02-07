@@ -1,4 +1,4 @@
-package com.luxness.DAO;
+package DAO;
 
 import com.luxness.entity.TestEntity;
 

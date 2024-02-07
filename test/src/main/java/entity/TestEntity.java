@@ -1,4 +1,4 @@
-package com.luxness.entity;
+package entity;
 
 public class TestEntity {
     private int id;
